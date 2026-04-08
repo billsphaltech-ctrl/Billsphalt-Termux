@@ -1,0 +1,40 @@
+.editor {
+    background-color: #f4f4f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.visualizer {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.terminal {
+    background-color: #000;
+    color: #00ff00;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.metrics {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .editor, .visualizer, .terminal, .metrics {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    .editor, .visualizer, .terminal, .metrics {
+        padding: 20px;
+    }
+}
