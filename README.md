@@ -1,52 +1,37 @@
-# Termux Installation Guide
+# Termux Documentation
 
-## Prerequisites  
-Before you begin, ensure you have the following:  
-- A compatible Android device  
-- Internet connection  
+## Overview
+This documentation provides comprehensive guidelines on using Termux, including all automation scripts and usage instructions.
 
-## Installation Steps  
-1. **Download Termux**  
-   - Go to the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) or [F-Droid](https://f-droid.org/packages/com.termux/) to download Termux.  
+## Installation
+1. Install Termux from the F-Droid repository.
+2. Update packages using:
+   ```bash
+   pkg update
+   ```
 
-2. **Install the APK**  
-   - If you downloaded the APK, open it and follow the instructions to install Termux.
+## Automation Scripts
+### Script 1: Example Automation
+- **Description**: This script automates the process of XYZ.
+- **Usage**: Run the following command:
+  ```bash
+  sh script1.sh
+  ```
 
-3. **Open Termux**  
-   - Locate the Termux app in your app drawer and open it.  
+### Script 2: Another Example
+- **Description**: This script is used for ABC tasks.
+- **Usage**: Execute the command below:
+  ```bash
+  sh script2.sh
+  ```
 
-4. **Update the Package List**  
-   - Run the following command to update the package list:
-     ```bash
-     pkg update
-     ```
+## Additional Usage Instructions
+- **Tip**: Always ensure your Termux is updated.
+- **Helpful Commands**:
+  ```bash
+  pkg install <package_name>
+  ```
+- For more information, visit the official Termux website or documentation site.
 
-## Post-Installation Setup  
-1. **Install Basic Packages**  
-   - Once you have opened Termux, you may want to install some basic packages:
-     ```bash
-     pkg install git
-     pkg install vim
-     pkg install wget
-     ```
-
-2. **Configure Environment**  
-   - Set up your environment variables by editing the `.bashrc` file.
-   - To edit, run:
-     ```bash
-     vim ~/.bashrc
-     ```
-
-## Troubleshooting  
-- **Error: Unable to locate package**  
-  Make sure you have updated the package list with `pkg update` before installing new packages.
-
-- **Termux Crashes on Startup**  
-  Try reinstalling the app or clearing the app data and cache from your device settings.
-
-## Useful Links  
-- [Official Termux Documentation](https://termux.com/docs/)  
-- [Termux GitHub Repository](https://github.com/termux/termux-app)  
-
-## Conclusion  
-You have successfully installed Termux on your Android device. Happy coding!
+## Conclusion
+This documentation will help users effectively utilize Termux and its automation capabilities. For any issues or contributions, please reach out via GitHub.
