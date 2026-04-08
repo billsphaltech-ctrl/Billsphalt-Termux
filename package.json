@@ -1,0 +1,17 @@
+{
+  "name": "billsphalt",
+  "version": "1.0.0",
+  "description": "A Node.js project for apps and podcasts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billsphaltech-ctrl/Billsphalt-Termux.git"
+  },
+  "author": "billsphaltech-ctrl",
+  "license": "MIT"
+}
